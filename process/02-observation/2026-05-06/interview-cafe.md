@@ -1,0 +1,113 @@
+# Interview Le Jardin de Sonia #
+
+# Brainstorm of Potential Questions to ask
+
+## Space & Atmosphere
+
+- How do you want people to feel when they enter the café?
+- What kind of feeling do you hope people leave with?
+- How did the design of the place come to life?
+- Were there inspirations behind the interior or atmosphere?
+
+---
+
+## Origin
+
+- How did the idea of opening the café begin?
+- What motivated you to create this place?
+- Is this a family business or your own initiative?
+- What is the story behind the café and its history?
+
+---
+
+## Daily Rhythm & Routines
+
+- Are there moments in the day that feel especially calm, intense, or meaningful?
+- What does a typical day here look like?
+- How does your daily routine work?
+- What matters most in your day-to-day process?
+- Are there small gestures or details that customers might not notice but are important to you?
+- Are there habits or routines among regular customers that stand out to you?
+
+---
+
+## Care
+
+- How do you take care of yourself or your staff during busy days?
+- How do you recognize when someone might need comfort or support?
+- What are small routines or gestures that show care in this space?
+- How do preparation methods or attention to detail influence the customer experience?
+
+---
+
+## Memory & Meaningful Encounters
+
+- What has surprised you most about running this café?
+- Can you recall a customer interaction that stayed with you?
+- Are there conversations you still remember today?
+- Are there customers who have had a strong impact on you?
+- Have you witnessed meaningful reunions or encounters in the café?
+
+---
+
+## Customers
+
+- What kinds of people usually come here?
+- Do you have many regular customers?
+- What do you know about your regular visitors?
+- Are there recurring habits or patterns among customers?
+- What do customers appreciate most about the café?
+- Is there a specific drink, pastry, or experience people especially remember?
+
+---
+
+After the brainstorm some questions where filtered out and selected:
+
+1. Why did you opended the cafè?
+   What was the motivation / intention?
+
+2. Who are you customers? 
+→ are they from the neighbourhood? 
+→ Are there habits or patterns that regular visitors always seem to follow?
+→ What do they appreciate about the place? / Why do they come?
+
+3. How does your daily routine look? What matters most in that process?
+
+4. What are small gestures or routines that show care here?
+
+5. What kind of feeling do you hope people leave with?
+
+6. What are specific objects unique to your place and do they hold a story behind? 
+
+7. Are there habits or patterns that regular visitors always seem to follow?
+
+---
+
+
+# Interview Themes
+
+During the interview these themes where discussed:
+
+- Community and neighborhood life  
+- Hospitality and human connection  
+- The warm and home-like atmosphere of the café  
+- Nostalgia and memories  
+- Interior design and decoration  
+- Vintage and second-hand objects  
+- Creativity and artistic expression  
+- Personalized customer experiences  
+- Daily café rituals and routines  
+- Friendship and social interaction  
+- Reconnection between people  
+- Coffee and cocktail culture  
+- Care and attentiveness  
+- Freedom and spontaneity  
+- The transformation and renovation of the space  
+- Challenges during Covid  
+- The closure and transition of the café  
+- Memory keeping through photos and objects  
+- Collecting and personal collections  
+- Comics and visual art  
+- Seasonal and holiday decoration  
+- Creating a sense of belonging and comfort  
+

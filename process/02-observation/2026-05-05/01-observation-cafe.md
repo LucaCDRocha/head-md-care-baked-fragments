@@ -1,0 +1,30 @@
+# Observation 01: Café le jardin de Sonia (05.05.26)
+
+## Atmosphere
+- Strong sense of familiarity; many interactions suggest regulars and staff/owner know each other well
+- frequent informal exchanges contribute to a sense of intimacy and routine
+- Staff/owner move fluidly between serving and socializing, creating a relaxed, communal atmosphere
+- The space feels oriented toward lingering and conversation (not about than high end consumption)
+
+## Interior
+- mix of furniture styles and decorations creates a layered, personalized environment
+- visual landscape: books, games, handwritten notes, plants, toys, seasonal decorations, and reused elements as well as objects referencing multiple cultures integrated into the decor -> cluttered but cozy
+- reserved signs on a few decor objects
+- playful and optimistic quotes and signs frame the café as welcoming, warm and informal
+- Practical details (e.g. accessible phone chargers) suggest attention to comfort and long stays
+- Music from earlier pop decades contributes to the nostalgic atmosphere
+- A dominant color theme (red) ties together otherwise highly varied visual elements
+
+## Customers
+- Clientele appears socially mixed across age and occupation
+- Many guests seem to be repeat visitors familiar with the routines of the place
+- Some customers display behaviors associated with domestic spaces rather than commercial ones, reinforcing the café’s homelike atmosphere
+- Presence of dogs further contributes to the informal and communal feeling
+
+## Distinctive Features
+- Book 1: Collection of post-its which preserve written memories, appreciations, and reflections connected to the space and owner
+- Book 2: Displays of photographs showing festive celebrations like Halloween
+- The café functions not only as a place of consumption but also as a repository of relationships, rituals, and shared history
+
+
+
