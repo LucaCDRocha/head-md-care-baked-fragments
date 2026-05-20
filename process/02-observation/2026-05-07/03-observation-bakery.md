@@ -11,7 +11,7 @@
 - Homemade pastries and bread are emphasized as central products
 - The surrounding neighborhood appears family-oriented and village-like, reinforcing a local customer base
 
-# Customers & Social Dynamics
+# Customers Dynamics
 - Clientele spans different age groups, though the atmosphere skews somewhat older and quieter
 - Customer behavior is divided between quick transactional visits and short seated stays
 - Visits appear relatively brief, suggesting the bakery functions more as a stopover than a prolonged social space
