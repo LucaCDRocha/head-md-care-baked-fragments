@@ -914,7 +914,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.08715578, y: 0, z: 0, w: 0.9961947}
   m_LocalPosition: {x: -2.303, y: 1.64, z: -10.01}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 0.92}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -978,7 +978,7 @@ MonoBehaviour:
   m_EventMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_MaxRayIntersections: 0
+  m_MaxRayIntersections: 1
 --- !u!1 &341198384
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,8 +1119,8 @@ Transform:
   m_GameObject: {fileID: 353116308}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.48245, y: 0.24045014, z: -0.13999987}
-  m_LocalScale: {x: 4, y: 0.1, z: 1}
+  m_LocalPosition: {x: -1.146, y: 0.24045014, z: -0.13999987}
+  m_LocalScale: {x: 3.5, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1790733473}
@@ -1527,6 +1527,7 @@ GameObject:
   - component: {fileID: 459351890}
   - component: {fileID: 459351889}
   - component: {fileID: 459351894}
+  - component: {fileID: 459351895}
   m_Layer: 0
   m_Name: Object (1)
   m_TagString: Untagged
@@ -1639,6 +1640,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85ca33256a5de864f9b86ff448f41470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraSwitch
+  cameras:
+  - {fileID: 330585545}
+  - {fileID: 1529844712}
+--- !u!114 &459351895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459351888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4046f4b0d3353840908515f4c9d060c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1001 &504281048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4124,7 +4140,7 @@ MonoBehaviour:
   m_EventMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_MaxRayIntersections: 0
+  m_MaxRayIntersections: 1
 --- !u!1 &1557199487
 GameObject:
   m_ObjectHideFlags: 0
