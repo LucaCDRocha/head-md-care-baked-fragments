@@ -978,7 +978,7 @@ MonoBehaviour:
   m_EventMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_MaxRayIntersections: 1
+  m_MaxRayIntersections: 0
 --- !u!1 &341198384
 GameObject:
   m_ObjectHideFlags: 0
@@ -1527,6 +1527,7 @@ GameObject:
   - component: {fileID: 459351890}
   - component: {fileID: 459351889}
   - component: {fileID: 459351894}
+  - component: {fileID: 459351896}
   - component: {fileID: 459351895}
   m_Layer: 0
   m_Name: Object (1)
@@ -1635,7 +1636,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 459351888}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85ca33256a5de864f9b86ff448f41470, type: 3}
   m_Name: 
@@ -1655,6 +1656,105 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4046f4b0d3353840908515f4c9d060c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  cameraToMove: {fileID: 330585545}
+  newPosition: {x: 3.76, y: 1.64, z: -10.01}
+--- !u!82 &459351896
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459351888}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 0f4c297a5c70afa499cc06fd8954d9e9, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &504281048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1791,6 +1891,7 @@ GameObject:
   - component: {fileID: 624788954}
   - component: {fileID: 624788953}
   - component: {fileID: 624788952}
+  - component: {fileID: 624788955}
   m_Layer: 0
   m_Name: Cylinder (2)
   m_TagString: Untagged
@@ -1807,7 +1908,7 @@ Transform:
   m_GameObject: {fileID: 624788950}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.5939998, y: -0.405, z: -5.386}
+  m_LocalPosition: {x: 0.5939998, y: -0.405, z: -5.264}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1893,6 +1994,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 624788950}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &624788955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624788950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96ff8a087a3add42a86ec3d5001a0dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &678936724
 GameObject:
   m_ObjectHideFlags: 0
@@ -2017,6 +2130,7 @@ GameObject:
   - component: {fileID: 698349389}
   - component: {fileID: 698349388}
   - component: {fileID: 698349387}
+  - component: {fileID: 698349390}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -2119,6 +2233,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 698349385}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &698349390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698349385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96ff8a087a3add42a86ec3d5001a0dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragDrop
 --- !u!1 &745354429
 GameObject:
   m_ObjectHideFlags: 0
@@ -2131,6 +2257,7 @@ GameObject:
   - component: {fileID: 745354433}
   - component: {fileID: 745354432}
   - component: {fileID: 745354431}
+  - component: {fileID: 745354434}
   m_Layer: 0
   m_Name: Cylinder (1)
   m_TagString: Untagged
@@ -2233,6 +2360,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 745354429}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &745354434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745354429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96ff8a087a3add42a86ec3d5001a0dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragDrop
 --- !u!1 &793976347
 GameObject:
   m_ObjectHideFlags: 0
@@ -4140,7 +4279,7 @@ MonoBehaviour:
   m_EventMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_MaxRayIntersections: 1
+  m_MaxRayIntersections: 0
 --- !u!1 &1557199487
 GameObject:
   m_ObjectHideFlags: 0
@@ -4266,6 +4405,7 @@ GameObject:
   - component: {fileID: 1595835083}
   - component: {fileID: 1595835082}
   - component: {fileID: 1595835081}
+  - component: {fileID: 1595835084}
   m_Layer: 0
   m_Name: Cylinder (3)
   m_TagString: Untagged
@@ -4282,7 +4422,7 @@ Transform:
   m_GameObject: {fileID: 1595835079}
   serializedVersion: 2
   m_LocalRotation: {x: 0.25205144, y: 0.058799803, z: -0.21944363, w: 0.94066846}
-  m_LocalPosition: {x: 0.98399997, y: -0.781, z: -5.557}
+  m_LocalPosition: {x: 0.98399997, y: -0.781, z: -5.27}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4368,6 +4508,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595835079}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1595835084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595835079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96ff8a087a3add42a86ec3d5001a0dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragDrop
 --- !u!4 &1614382679 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 870000772817136030, guid: 07acb10f1d2acc443a20b13588ae8733, type: 3}
@@ -4734,6 +4886,7 @@ GameObject:
   - component: {fileID: 1795023196}
   - component: {fileID: 1795023195}
   - component: {fileID: 1795023194}
+  - component: {fileID: 1795023197}
   m_Layer: 0
   m_Name: Cylinder (4)
   m_TagString: Untagged
@@ -4750,7 +4903,7 @@ Transform:
   m_GameObject: {fileID: 1795023192}
   serializedVersion: 2
   m_LocalRotation: {x: -0.08819784, y: 0.3162583, z: -0.2696939, w: 0.9052442}
-  m_LocalPosition: {x: 0.377, y: -0.84, z: -5.501}
+  m_LocalPosition: {x: 0.377, y: -0.84, z: -5.3}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4836,6 +4989,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795023192}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1795023197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795023192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96ff8a087a3add42a86ec3d5001a0dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragDrop
 --- !u!1001 &1888215495
 PrefabInstance:
   m_ObjectHideFlags: 0
