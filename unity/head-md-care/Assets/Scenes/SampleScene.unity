@@ -1397,6 +1397,7 @@ GameObject:
   - component: {fileID: 196479386}
   - component: {fileID: 196479385}
   - component: {fileID: 196479384}
+  - component: {fileID: 196479388}
   m_Layer: 0
   m_Name: Object (11)
   m_TagString: Untagged
@@ -1511,6 +1512,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 196479382}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &196479388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196479382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eedf46616c9a894788697d9a4b35deb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Blinking
+  pulsateSpeed: 10
+  pulsateAmount: 0.1
 --- !u!1 &228856714
 GameObject:
   m_ObjectHideFlags: 0
@@ -4250,6 +4265,7 @@ GameObject:
   - component: {fileID: 595509356}
   - component: {fileID: 595509355}
   - component: {fileID: 595509358}
+  - component: {fileID: 595509359}
   m_Layer: 0
   m_Name: Cube (8)
   m_TagString: Untagged
@@ -4364,6 +4380,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObjectFocus
   cam: {fileID: 330585545}
   transitionDuration: 1
+--- !u!114 &595509359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595509353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eedf46616c9a894788697d9a4b35deb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Blinking
+  pulsateSpeed: 10
+  pulsateAmount: 0.1
 --- !u!1001 &597033264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4743,6 +4773,7 @@ GameObject:
   - component: {fileID: 674806697}
   - component: {fileID: 674806696}
   - component: {fileID: 674806695}
+  - component: {fileID: 674806699}
   m_Layer: 0
   m_Name: Object (13)
   m_TagString: Untagged
@@ -4857,6 +4888,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 674806693}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &674806699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674806693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eedf46616c9a894788697d9a4b35deb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Blinking
+  pulsateSpeed: 10
+  pulsateAmount: 0.1
 --- !u!1 &678936724
 GameObject:
   m_ObjectHideFlags: 0
@@ -7663,6 +7708,7 @@ GameObject:
   - component: {fileID: 1108846132}
   - component: {fileID: 1108846131}
   - component: {fileID: 1108846134}
+  - component: {fileID: 1108846135}
   m_Layer: 0
   m_Name: Object (15)
   m_TagString: Untagged
@@ -7777,6 +7823,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObjectFocus
   cam: {fileID: 330585545}
   transitionDuration: 1
+--- !u!114 &1108846135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108846129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eedf46616c9a894788697d9a4b35deb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Blinking
+  pulsateSpeed: 10
+  pulsateAmount: 0.1
 --- !u!1 &1155751350
 GameObject:
   m_ObjectHideFlags: 0
@@ -11294,6 +11354,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.005, y: 0.01, z: 0.005}
   m_Center: {x: 0, y: -0.005, z: 0}
+--- !u!114 &1787081954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787081950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eedf46616c9a894788697d9a4b35deb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  pulsateSpeed: 10
+  pulsateAmount: 0.01
 --- !u!1 &1790733472
 GameObject:
   m_ObjectHideFlags: 0
@@ -11692,6 +11766,7 @@ GameObject:
   - component: {fileID: 1876367458}
   - component: {fileID: 1876367457}
   - component: {fileID: 1876367456}
+  - component: {fileID: 1876367460}
   m_Layer: 0
   m_Name: Cube (8)
   m_TagString: Untagged
@@ -11806,6 +11881,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1876367454}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1876367460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876367454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eedf46616c9a894788697d9a4b35deb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Blinking
+  pulsateSpeed: 10
+  pulsateAmount: 0.1
 --- !u!1 &1879259520
 GameObject:
   m_ObjectHideFlags: 0
@@ -12551,6 +12640,7 @@ GameObject:
   - component: {fileID: 1970746163}
   - component: {fileID: 1970746162}
   - component: {fileID: 1970746165}
+  - component: {fileID: 1970746166}
   m_Layer: 0
   m_Name: Object (11)
   m_TagString: Untagged
@@ -12669,6 +12759,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObjectFocus
   cam: {fileID: 330585545}
   transitionDuration: 1
+--- !u!114 &1970746166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970746160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eedf46616c9a894788697d9a4b35deb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Blinking
+  pulsateSpeed: 10
+  pulsateAmount: 0.1
 --- !u!1 &1975117677
 GameObject:
   m_ObjectHideFlags: 0
@@ -12880,6 +12984,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 90d73720dc7fd7e4c9502b635a6dc584, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1787081953}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 90d73720dc7fd7e4c9502b635a6dc584, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1787081954}
   m_SourcePrefab: {fileID: 100100000, guid: 90d73720dc7fd7e4c9502b635a6dc584, type: 3}
 --- !u!1001 &2033220919
 PrefabInstance:
