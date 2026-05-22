@@ -18,8 +18,7 @@ public class PuzzleCollision : MonoBehaviour
             {
                 if (obj != null)
                 {
-                    MeshRenderer renderer = obj.GetComponent<MeshRenderer>();
-                    if (renderer != null) renderer.enabled = false;
+                    obj.SetActive(false);
                 }
             }
         }
@@ -34,10 +33,9 @@ public class PuzzleCollision : MonoBehaviour
             {
                 if (obj != null)
                 {
-                    MeshRenderer renderer = obj.GetComponent<MeshRenderer>();
-                    if (renderer != null && !renderer.enabled)
+                    if (!obj.activeSelf)
                     {
-                        renderer.enabled = true;
+                        obj.SetActive(true);
                         break; // exit the loop after enabling one object
                     }
                 }
